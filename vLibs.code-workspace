@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": "./lib_ble/",
+      "name": "lib_ble"
+    },
+    {
+      "path": "./visf_dartx/",
+      "name": "visf_dartx"
+    },
+    {
+      "path": "./visf_flutterx/",
+      "name": "visf_flutterx"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    // "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "search.exclude": {
+      "**/.fvm": true
+    },
+    "files.watcherExclude": {
+      "**/.fvm": true
+    },
+    "[proto3]": {
+      "editor.defaultFormatter": "zxh404.vscode-proto3"
+    },
+    "[dart]": {
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.rulers": [150],
+      "editor.tabSize": 2
+    },
+    "dart.lineLength": 150
+  }
+}

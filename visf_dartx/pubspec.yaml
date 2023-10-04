@@ -1,0 +1,17 @@
+name: visf_dartx
+description: _
+version: 1.1.0
+publish_to: 'none'
+homepage: _
+
+environment:
+  sdk: '>=2.17.6 <4.0.0'
+
+dependencies:
+  dartx: any
+  async: ^2.11.0
+  logger: ^1.4.0
+
+dev_dependencies:
+  lints: ^2.1.1
+  test: ^1.24.3

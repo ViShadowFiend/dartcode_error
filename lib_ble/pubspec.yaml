@@ -1,0 +1,37 @@
+name: lib_ble
+description: _
+version: 1.1.80+80
+homepage: _
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.9.1
+  ffi: ^2.0.1
+  rxdart: ^0.27.7
+  visf_dartx:
+    path: ../visf_dartx
+  flutter_reactive_ble: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: com.visf.test.lib_ble
+        pluginClass: LibBlePlugin
+      ios:
+        pluginClass: LibBlePlugin
