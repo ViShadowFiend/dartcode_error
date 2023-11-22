@@ -14,9 +14,9 @@ dependencies:
   visf_dartx:
     path: ../visf_dartx
   plugin_platform_interface: ^2.1.4
-  device_info_plus: ^9.0.2
-  package_info_plus: ^4.0.2
-  permission_handler: ^10.4.2
+  device_info_plus: ^10.0.0
+  package_info_plus: ^5.0.0
+  permission_handler: ^11.0.1
   wakelock_plus: ^1.1.1
 
 dev_dependencies:

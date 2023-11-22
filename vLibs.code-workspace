@@ -30,6 +30,7 @@
       "editor.rulers": [150],
       "editor.tabSize": 2
     },
-    "dart.lineLength": 150
+    "dart.lineLength": 150,
+    "dart.analyzerInstrumentationLogFile": "logs/analyzer.txt"
   }
 }
