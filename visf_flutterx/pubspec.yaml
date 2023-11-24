@@ -5,19 +5,14 @@ homepage: _
 publish_to: "none"
 
 environment:
-  sdk: ">=2.17.6 <4.0.0"
-  flutter: ">=3.0.5"
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
 
 dependencies:
   flutter:
     sdk: flutter
   visf_dartx:
     path: ../visf_dartx
-  plugin_platform_interface: ^2.1.4
-  device_info_plus: ^10.0.0
-  package_info_plus: ^5.0.0
-  permission_handler: ^11.0.1
-  wakelock_plus: ^1.1.1
 
 dev_dependencies:
   flutter_test:
