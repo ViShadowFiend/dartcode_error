@@ -19,18 +19,18 @@ dependencies:
   visf_flutterx:
     path: ../../visf_flutterx
 
-  # flutter_hooks: ^0.20.3
-  # hooks_riverpod: ^2.4.8
-  # riverpod_annotation: ^2.3.1
+  flutter_hooks: 0.20.3
+  hooks_riverpod: 2.4.8
+  riverpod_annotation: 2.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
-  build_runner: ^2.4.6
-  custom_lint: ^0.5.7
-  riverpod_generator: ^2.3.8
-  riverpod_lint: ^2.3.6
+  flutter_lints: 3.0.1
+  build_runner: 2.4.6
+  custom_lint: 0.5.7
+  riverpod_generator: 2.3.8
+  riverpod_lint: 2.3.6
 
 flutter:
   uses-material-design: true
